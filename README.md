@@ -88,14 +88,3 @@
 # В Linux / WSL:
 ./build.sh v0.1.0-beta
 ```
-
-### Автоматический релиз на GitHub (GitHub Actions)
-
-В репозиторий добавлен воркфлоу [`.github/workflows/release.yml`](.github/workflows/release.yml):
-
-- При пуше тега версии (`git tag v0.1.0-beta && git push origin v0.1.0-beta`) GitHub Actions автоматически:
-  1. Собирает оптимизированный бинарник `mouse-battery.exe` под Windows amd64;
-  2. Вшивает номер версии в бинарник;
-  3. Создаёт GitHub Release (с пометкой `pre-release` для бета-версий);
-  4. Прикрепляет `mouse-battery.exe` и `devices.json` к релизу.
-- Также доступен ручной запуск сборки из вкладки **Actions** (workflow_dispatch).
