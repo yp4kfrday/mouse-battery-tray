@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "github_repo": "OWNER/mouse-battery-tray",
+  "check_updates": true,
+  "description": "Registry of known wireless mice and updater configuration. You can add new VID/PIDs below.",
+  "devices": [
+    {
+      "vendor": "Ajazz",
+      "model": "Ajazz AJ179 Pro",
+      "vid": "0x3151",
+      "pid": "0x402D",
+      "driver": "ajazz_compx"
+    },
+    {
+      "vendor": "Ajazz",
+      "model": "Ajazz AJ159 Pro / Apex",
+      "vid": "0x3151",
+      "pid": "0x402E",
+      "driver": "ajazz_compx"
+    },
+    {
+      "vendor": "Ajazz",
+      "model": "Ajazz AJ139 Pro",
+      "vid": "0x3151",
+      "pid": "0x4018",
+      "driver": "ajazz_compx"
+    },
+    {
+      "vendor": "VXE",
+      "model": "VXE R1 SE+",
+      "vid": "0x3554",
+      "pid": "0xF58E",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "VXE",
+      "model": "VXE R1 SE",
+      "vid": "0x3554",
+      "pid": "0xF58F",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "VXE",
+      "model": "VXE R1 Pro / Pro Max",
+      "vid": "0x3554",
+      "pid": "0xF58C",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "VXE",
+      "model": "VXE Mad R / Major",
+      "vid": "0x3554",
+      "pid": "0xF58D",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "VGN",
+      "model": "VGN Dragonfly F1 Pro / MOBA",
+      "vid": "0x3554",
+      "pid": "0xF55B",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "VGN",
+      "model": "VGN Dragonfly F1 4K",
+      "vid": "0x3554",
+      "pid": "0xF505",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "ATK",
+      "model": "ATK Blazing Sky F1 / X1",
+      "vid": "0x373B",
+      "pid": "*",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "CompX",
+      "model": "CompX Nordic 2.4G Receiver",
+      "vid": "0x25A7",
+      "pid": "*",
+      "driver": "vxe_nordic"
+    },
+    {
+      "vendor": "Logitech",
+      "model": "Logitech G Pro Wireless / Superlight",
+      "vid": "0x046D",
+      "pid": "0xC539",
+      "driver": "logitech_hidpp"
+    },
+    {
+      "vendor": "Logitech",
+      "model": "Logitech G Pro X Superlight 2",
+      "vid": "0x046D",
+      "pid": "0xC547",
+      "driver": "logitech_hidpp"
+    },
+    {
+      "vendor": "Logitech",
+      "model": "Logitech G305 / G304 Lightspeed",
+      "vid": "0x046D",
+      "pid": "0xC53F",
+      "driver": "logitech_hidpp"
+    },
+    {
+      "vendor": "Logitech",
+      "model": "Logitech MX Master 3 / 3S",
+      "vid": "0x046D",
+      "pid": "0xB034",
+      "driver": "logitech_hidpp"
+    },
+    {
+      "vendor": "Razer",
+      "model": "Razer Viper / DeathAdder / Basilisk Wireless",
+      "vid": "0x1532",
+      "pid": "*",
+      "driver": "razer"
+    },
+    {
+      "vendor": "SteelSeries",
+      "model": "SteelSeries Aerox / Rival Wireless",
+      "vid": "0x1038",
+      "pid": "*",
+      "driver": "steelseries"
+    }
+  ]
+}
